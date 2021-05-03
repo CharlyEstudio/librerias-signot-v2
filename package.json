@@ -1,0 +1,28 @@
+{
+  "name": "fechas",
+  "version": "1.0.0",
+  "description": "Probando librerías de fechas para Signot V2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/"
+  },
+  "author": "Charly Ramirez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/luxon": "^1.26.5",
+    "@types/mathjs": "^6.0.11",
+    "@types/node": "^15.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.3",
+    "luxon": "^1.26.0",
+    "mathjs": "^9.3.2",
+    "moment": "^2.29.1",
+    "node-zip": "^1.1.1"
+  }
+}
